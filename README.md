@@ -19,11 +19,8 @@
         <strong>Keywords:</strong> sheaf cohomology, computational complexity, Grothendieck topos, 3-SAT, myriad decomposition, geometric morphism, cohesive topos, synthetic differential geometry, observer-dependent complexity, DPLL, spectral gap, topological data analysis
     </div>
 </div>
-
-
-<div class="abstract">
-    <div class="abstract-title">Abstract
-    
+    <p>
+        </p>
   </div>
     <p>
         We apply sheaf-theoretic methods to computational complexity, treating hardness as a <em>context-dependent</em> property across Grothendieck topoi. We contrast the topos of finite sets <span class="math">Sh(\mathrm{Fin})</span>—where every problem is trivially decidable by exhaustive lookup—with the topos of asymptotic domains <span class="math">Sh(\mathbb{N})</span>, where polynomial and exponential growth classes are categorically distinct. An essential geometric morphism connects these regimes, formalizing the intuition that finite instances of NP-hard problems are often tractable while the asymptotic distinction remains sharp.
@@ -37,4 +34,4 @@
     <p>
         <em>Note on scope:</em> This work provides a categorical reframing of complexity distinctions and offers preliminary experimental validation; the classical P vs. NP question in ZFC remains open.
     </p>
-</div>
+
