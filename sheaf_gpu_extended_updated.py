@@ -37,10 +37,10 @@ else:
     print("[GPU] Not available, using CPU")
 
 # ── Paths (EDIT THESE) ──────────────────────────────────────────────
-OUTPUT_DIR = "/home/dander/workspace/npp"
+OUTPUT_DIR = "/home/user/"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 RESULTS_FILE = os.path.join(OUTPUT_DIR, "results_extended.json")
-CHECKPOINT_FILE = os.path.join(OUTPUT_DIR, ".checkpoint_hashes.json")
+CHECKPOINT_FILE = os.path.join(OUTPUT_DIR, "checkpoint_hashes.json")
 
 ALL_3BITS = np.array(list(product(range(2), repeat=3)), dtype=np.int8)
 _LAPLACIAN_CACHE = {}
